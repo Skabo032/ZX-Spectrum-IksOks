@@ -3,6 +3,11 @@ org 32768
 ;------by Bosko---RAC2 Zimski----17.2.2019.------
 ;------updated----22.2.2019.---------------------
 ;================================================
+;1|2|3
+;4|5|6       0-exit
+;7|8|9
+
+
 	call	nacrtaj_tablu
 	ld	a,0
 	ld	(brojac),a	;setuje brojac poteza na 0
